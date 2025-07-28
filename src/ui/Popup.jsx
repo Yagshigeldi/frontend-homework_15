@@ -6,7 +6,7 @@ const Popup = ({ children, onClose, isShow = false }) => {
       <>
         <div
           onClick={onClose}
-          className="fixed bg-black/50 top-0 let-0 w-full h-screen z-40"
+          className="fixed bg-black/50 top-0 left-0 w-full h-screen z-40"
         ></div>
         <div className="z-40 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
           {children}
